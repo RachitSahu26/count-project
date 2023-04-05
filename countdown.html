@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./countdown.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="time-box">
+           <span   id ="hr" class="count">00</span>
+           <span>Hours</span>
+           <span id ="min"class="count">00</span>
+           <span>Minute</span>
+           <span  id ="sec" class="count">00</span>
+           <span>Sec</span>
+           <span id="main" class="count">00</span>
+           
+        </div>
+        <div class="button-box">
+            <button  id="start" class="btn" onclick="start()">Start</button>
+            <button  id="stop" class="btn" onclick="stop()">Stop</button>
+
+            <button id="reset" class="btn" onclick="reset()">Reset</button>
+
+        </div>
+    </div>
+    <script src="./countdown.js"></script>
+</body>
+
+</html>
